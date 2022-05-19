@@ -178,7 +178,8 @@ color_palette.remaps = {
       CmpItemKindVariable = { fg = colors.light_blue },
       CmpItemAbbr = { fg = colors.fg },
       CmpItemAbbrMatch = { fg = colors.light_blue },
-      CmpItemMenu = { fg = colors.blue }
+      CmpItemMenu = { fg = colors.blue },
+      CmpItemKindFunction = { fg = colors.yellow },
     },
 
     trouble = {
@@ -191,6 +192,13 @@ color_palette.remaps = {
       NvimTreeFileDeleted = { fg = colors.red },
       NvimTreeGitDeleted = { fg = colors.red },
       NvimTreeGitDirty = { fg = colors.yellow },
+    },
+
+    bufferline = {
+      BufferLineFill = { bg = colors.bg },
+      BufferlineModified = { fg = colors.yellow },
+      BufferLineModifiedVisible = { fg = colors.yellow },
+      BufferLineModifiedSelected = { fg = colors.yellow },
     },
 
     telescope = {
