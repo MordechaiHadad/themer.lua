@@ -127,6 +127,7 @@ color_palette.remaps = {
         Number = { fg = colors.number },
         Boolean = { link = "Constant" },
         Float = { link = "Number" },
+        Conditional = { link = "TSConditional" },
 
         Identifier = { fg = colors.light_blue },
         Function = { fg = colors.yellow },
@@ -140,6 +141,7 @@ color_palette.remaps = {
         Special = { fg = colors.blue },
 
         StatusLine = { fg = "#353c4a" },
+        DashboardHeader = { link = "Statement" },
     },
     plugins = {
         treesitter = {
